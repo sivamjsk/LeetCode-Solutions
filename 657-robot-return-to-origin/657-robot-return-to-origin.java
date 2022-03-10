@@ -14,9 +14,6 @@ class Solution {
 			else if(move == 'L')
 				x-=1;
 		}
-		if(x == 0 && y == 0)
-			return true;
-		else
-			return false;
+		return x == 0 && y == 0;
     }
 }
